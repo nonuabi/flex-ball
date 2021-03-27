@@ -21,13 +21,11 @@ body {
   height: 60px;
   width: 60px;
   background-color: gold;
-  order: 6;
 }
 #ball2 {
   height: 70px;
   width: 70px;
   background-color: greenyellow;
-  order: 4;
 }
 #ball3 {
   height: 80px;
@@ -43,11 +41,9 @@ body {
   height: 100px;
   width: 100px;
   background-color: darkseagreen;
-  order: 5;
 }
 #ball6 {
   height: 110px;
   width: 110px;
   background-color: darkorchid;
-  order: 3;
 }
