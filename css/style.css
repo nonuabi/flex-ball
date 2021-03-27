@@ -1,0 +1,53 @@
+body {
+  background-color: whitesmoke;
+}
+#box {
+  width: 510px;
+  height: 510px;
+  background-color: white;
+  margin: 110px auto;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#box div {
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  box-sizing: border-box;
+  text-align: center;
+}
+#ball1 {
+  height: 60px;
+  width: 60px;
+  background-color: gold;
+  order: 6;
+}
+#ball2 {
+  height: 70px;
+  width: 70px;
+  background-color: greenyellow;
+  order: 4;
+}
+#ball3 {
+  height: 80px;
+  width: 80px;
+  background-color: dodgerblue;
+}
+#ball4 {
+  height: 90px;
+  width: 90px;
+  background-color: deeppink;
+}
+#ball5 {
+  height: 100px;
+  width: 100px;
+  background-color: darkseagreen;
+  order: 5;
+}
+#ball6 {
+  height: 110px;
+  width: 110px;
+  background-color: darkorchid;
+  order: 3;
+}
