@@ -1,11 +1,18 @@
 body {
   background-color: whitesmoke;
 }
+header {
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: teal;
+}
 #box {
   width: 510px;
   height: 510px;
   background-color: white;
-  margin: 110px auto;
+  margin: 60px auto;
   border: 1px solid black;
   display: flex;
   flex-direction: column-reverse;
