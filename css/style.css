@@ -9,14 +9,13 @@ header {
   background-color: teal;
 }
 #box {
-  width: 300px;
-  height: 300px;
+  width: 330px;
+  height: 240px;
   background-color: white;
   margin: 60px auto;
   border: 1px solid black;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap-reverse;
 }
 
 #box div {
@@ -29,29 +28,35 @@ header {
   height: 60px;
   width: 60px;
   background-color: gold;
+  flex-shrink: 0;
 }
 #ball2 {
   height: 70px;
   width: 70px;
   background-color: greenyellow;
+  flex-shrink: 1;
 }
 #ball3 {
   height: 80px;
   width: 80px;
   background-color: dodgerblue;
+  flex-shrink: 1;
 }
 #ball4 {
   height: 90px;
   width: 90px;
   background-color: deeppink;
+  flex-shrink: 1;
 }
 #ball5 {
   height: 100px;
   width: 100px;
   background-color: darkseagreen;
+  flex-shrink: 2;
 }
 #ball6 {
   height: 110px;
   width: 110px;
   background-color: darkorchid;
+  flex-shrink: 2;
 }
