@@ -15,7 +15,7 @@ header {
   margin: 60px auto;
   border: 1px solid black;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 #box div {
@@ -25,30 +25,30 @@ header {
   text-align: center;
 }
 #ball1 {
-  height: 60px;
-  width: 60px;
+  height: 30px;
+  width: 30px;
   background-color: gold;
   flex-shrink: 0;
 }
 #ball2 {
-  height: 70px;
-  width: 70px;
+  height: 40px;
+  width: 40px;
   background-color: greenyellow;
-  flex-shrink: 1;
+  flex-grow: 1;
 }
 #ball3 {
-  height: 80px;
-  width: 80px;
+  height: 50px;
+  width: 50px;
   background-color: dodgerblue;
-  flex-shrink: 1;
+  flex-grow: 2;
 }
 #ball4 {
-  height: 90px;
-  width: 90px;
+  height: 60px;
+  width: 60px;
   background-color: deeppink;
-  flex-shrink: 1;
+  flex-grow: 6;
 }
-#ball5 {
+/* #ball5 {
   height: 100px;
   width: 100px;
   background-color: darkseagreen;
@@ -59,4 +59,4 @@ header {
   width: 110px;
   background-color: darkorchid;
   flex-shrink: 2;
-}
+} */
