@@ -31,40 +31,43 @@ header {
   width: 30px;
   background-color: gold;
   flex-shrink: 0;
-  flex-grow: 0;
+  /* flex-grow: 0; */
 }
 #ball2 {
   height: 40px;
   width: 40px;
   background-color: greenyellow;
-  flex-grow: 1;
+  /* flex-grow: 1; */
 }
 #ball3 {
   height: 50px;
   width: 50px;
   background-color: dodgerblue;
-  flex-grow: 2;
+  /* flex-grow: 2; */
 }
 #ball4 {
   height: 60px;
   width: 60px;
   background-color: deeppink;
-  flex-grow: 6;
+  /* flex-grow: 6; */
 }
 #ball5 {
   height: 70px;
   width: 70px;
   background-color: darkseagreen;
-  flex-shrink: 2;
+  /* flex-shrink: 2; */
 }
 #ball6 {
   height: 80px;
   width: 80px;
   background-color: darkorchid;
-  flex-shrink: 2;
+  /* flex-shrink: 2; */
 }
-
+#box {
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
 #box2 {
-  flex-direction: column-reverse;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
 }
